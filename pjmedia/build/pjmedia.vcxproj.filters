@@ -227,7 +227,7 @@
     <ClCompile Include="..\src\pjmedia\vid_conf.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\pjmedia\echo_webrtc_aec3.cpp">
+    <ClCompile Include="..\src\pjmedia\mp3_writer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -416,6 +416,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\include\pjmedia\vid_conf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\pjmedia\mp3_writer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

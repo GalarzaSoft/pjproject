@@ -735,10 +735,16 @@ public:
     virtual ~AudioMediaRecorder();
 
 private:
+    enum FileType {
+        MP3, WAV
+    };
     /**
      * Recorder Id.
      */
-    int recorderId;
+    std::string wavFile;
+    std::string mp3File;
+    int	recorderId;
+    FileType type;
 };
 
 /**
